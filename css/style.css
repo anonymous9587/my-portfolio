@@ -79,9 +79,10 @@ body {
 
 .sidebar-menu {
   width: 100%;
-  position: relative;
+  position: fixed;
   background-color: black;
-  z-index: 9999;
+  z-index: 1;
+  top: 80px;
 }
 
 .sidebar {
@@ -312,9 +313,7 @@ body {
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-  box-shadow:
-    #16e3e5 0px 3px 6px,
-    rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  box-shadow: #16e3e5 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .accordion-content {
@@ -479,6 +478,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 
 footer {
   width: 100%;
